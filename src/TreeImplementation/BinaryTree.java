@@ -12,11 +12,23 @@ public class BinaryTree {
       root = new Node(data);
     }
     else if(data<root.data){
-      root = insertRec(root.left,data);
+      root.left = insertRec(root.left,data);
     }
     else if(data>root.data){
-      root = insertRec(root.right,data);
+      root.right = insertRec(root.right,data);
     }
     return root;
+  }
+
+  public void postOrder(){
+    preOrderRec(root);
+  }
+
+  public void preOrderRec(Node root) {
+    if(root!=null){
+      preOrderRec(root.left);
+      preOrderRec(root.right);
+      System.out.print(root.data+" ");
+    }
   }
 }

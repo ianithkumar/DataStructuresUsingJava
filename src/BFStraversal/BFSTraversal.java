@@ -1,4 +1,4 @@
-package DFStraversal;
+package BFStraversal;
 
 import java.util.*;
 public class BFSTraversal

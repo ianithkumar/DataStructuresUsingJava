@@ -9,7 +9,7 @@ public class Search {
     //int result = LinearSearch(arr, search);
     //int result = BinarySearch(arr,search,left,right);
     int result = BinarySearchUsingRecursion(arr, search, left, right);
-    if (result >= 0) {
+    if (result != -1) {
       System.out.println("The Element Found At Index " + result);
     } else {
       System.out.println("Element Not Found");
