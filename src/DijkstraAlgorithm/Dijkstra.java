@@ -62,6 +62,6 @@ public class Dijkstra{
         {0, 0, 2, 0, 0, 0, 6, 7, 0}
     };
 
-    dijkstra(graph,0);
+    dijkstra(graph,4);
 }
 }
