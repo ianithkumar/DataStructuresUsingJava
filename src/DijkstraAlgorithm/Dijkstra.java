@@ -1,8 +1,8 @@
 package DijkstraAlgorithm;
 
-import java.util.*;
+import java.util.Arrays;
 
-public class Dijkstra{
+public class Dijkstra {
 
   private static final int INF = Integer.MAX_VALUE;
 
@@ -62,6 +62,6 @@ public class Dijkstra{
         {0, 0, 2, 0, 0, 0, 6, 7, 0}
     };
 
-    dijkstra(graph,4);
-}
+    dijkstra(graph, 4);
+  }
 }
